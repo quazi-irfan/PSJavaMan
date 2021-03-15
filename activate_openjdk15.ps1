@@ -1,4 +1,5 @@
-#  set-executionpolicy unrestricted
+# Run the following command to elevate Execution Policy to 'unrestriced' - otherwise PowerShell scripts(Files ending with *.ps1) wont run from Powershell terminal.
+# set-executionpolicy unrestricted
 
 # Step 1: Create a new env variable JAVA_HOME and set it to 'C:\Java\jdk-15.0.1'
 [System.Environment]::SetEnvironmentVariable("JAVA_HOME","C:\Java\jdk-15.0.1", [System.EnvironmentVariableTarget]::User);
